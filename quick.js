@@ -32,6 +32,7 @@ function quickSort(arr) {
       right.push(arr[i])
     }
   }
+  console.log("11111");
   return quickSort(left).concat(midVal,quickSort(right))
 }
 
